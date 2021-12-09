@@ -1,3 +1,3 @@
 export enum Paths {
-    loginPage = "/login",
+    loginPage = "login",
 }
