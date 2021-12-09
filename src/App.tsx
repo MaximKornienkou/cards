@@ -7,7 +7,7 @@ import {Paths} from './routes/paths';
 function App() {
     const {loginPage} = Paths;
     return (
-        
+
             <Routes>
                 <Route path={loginPage} element={<LoginPage/>}/>
             </Routes>
