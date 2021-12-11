@@ -6,20 +6,19 @@ type PassRecoveryPagePropsType = {}
 export const PassRecoveryPage: React.FC<PassRecoveryPagePropsType> = () => {
 
     useEffect(() => {
-        axios.post(`http://localhost:7542/2.0/ping`)
+        axios.get(`http://localhost:7542/2.0/ping`)
             .then((response) => {
-                console.log(1)
+                console.log(response);
             })
             .catch(() => {
-                console.log("hello, you are stupid")
+                console.log("hello, you are stupid");
             })
     }, [])
 
     const [mail, setMail] = useState("")
 
     const onChangeEnterMail = (event: ChangeEvent<HTMLInputElement>) => {
-        setMail(event.currentTarget.value)
-        console.log(mail)
+        setMail(event.currentTarget.value);
     }
 
     return (
@@ -31,6 +30,9 @@ export const PassRecoveryPage: React.FC<PassRecoveryPagePropsType> = () => {
                 <input id="email" onChange={onChangeEnterMail}/>
             </div>
             <span>Enter your mail and we will send you further instructions</span>
+            <div>
+                <button>Send instructions</button>
+            </div>
         </form>
     )
 }
