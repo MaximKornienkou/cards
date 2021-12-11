@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Routes} from 'react-router-dom';
+import {NavLink, Route, Routes} from 'react-router-dom';
 import './App.css';
 import {LoginPage} from './components/LoginPage/LoginPage';
 import {Paths} from './routes/paths';
@@ -12,7 +12,10 @@ function App() {
 
     return (
         <div>
-            <h2>Start</h2>
+            <h2>Test</h2>
+            <div>
+                <button><NavLink to={passRecoveryPage}>Password recovery</NavLink></button>
+            </div>
             <Routes>
                 <Route path={loginPage} element={<LoginPage />}/>
                 <Route path={registrationPage} element={<RegistrationPage />}/>
