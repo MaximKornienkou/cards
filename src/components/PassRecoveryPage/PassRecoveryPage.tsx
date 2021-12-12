@@ -1,5 +1,7 @@
 import axios from "axios";
 import React, {ChangeEvent, useEffect, useState} from "react";
+import {useDispatch} from "react-redux";
+import {enterEmailAC, passRecoveryAC, passRecoveryTC} from "../../redux/passrecovery-reducer";
 
 type PassRecoveryPagePropsType = {}
 
@@ -13,12 +15,21 @@ export const PassRecoveryPage: React.FC<PassRecoveryPagePropsType> = () => {
             .catch(() => {
                 console.log("hello, you are stupid");
             })
-    }, [])
+    }, []);
 
-    const [mail, setMail] = useState("")
+    const dispatch = useDispatch();
+
+    const [mail, setMail] = useState("");
 
     const onChangeEnterMail = (event: ChangeEvent<HTMLInputElement>) => {
         setMail(event.currentTarget.value);
+        dispatch(enterEmailAC(mail));
+        console.log(mail);
+    }
+
+    const onClickSendInstructions = () => {
+        dispatch(passRecoveryTC(mail));
+        console.log("test");
     }
 
     return (
@@ -27,11 +38,11 @@ export const PassRecoveryPage: React.FC<PassRecoveryPagePropsType> = () => {
             <span>Forgot your password?</span>
             <div>
                 <label htmlFor="email">Email</label>
-                <input id="email" onChange={onChangeEnterMail}/>
+                <input id="email" onChange={onChangeEnterMail} value={mail}/>
             </div>
-            <span>Enter your mail and we will send you further instructions</span>
+            <p>Enter your mail and we will send you further instructions</p>
             <div>
-                <button>Send instructions</button>
+                <button onClick={onClickSendInstructions}>Send instructions</button>
             </div>
         </form>
     )

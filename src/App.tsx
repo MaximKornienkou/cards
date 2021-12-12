@@ -17,7 +17,6 @@ function App() {
                 <button><NavLink to={passRecoveryPage}>Password recovery</NavLink></button>
             </div>
             <Routes>
-                <Route path={'/'} element={<App />}/>
                 <Route path={loginPage} element={<LoginPage />}/>
                 <Route path={registrationPage} element={<RegistrationPage />}/>
                 <Route path={passRecoveryPage} element={<PassRecoveryPage />}/>
