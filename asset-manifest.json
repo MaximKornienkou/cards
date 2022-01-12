@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/cards/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/cards/static/js/main.64840c29.chunk.js",
-    "main.js.map": "/cards/static/js/main.64840c29.chunk.js.map",
-    "runtime-main.js": "/cards/static/js/runtime-main.291fb413.js",
-    "runtime-main.js.map": "/cards/static/js/runtime-main.291fb413.js.map",
-    "static/js/2.39aa3409.chunk.js": "/cards/static/js/2.39aa3409.chunk.js",
-    "static/js/2.39aa3409.chunk.js.map": "/cards/static/js/2.39aa3409.chunk.js.map",
-    "static/js/3.a8df368a.chunk.js": "/cards/static/js/3.a8df368a.chunk.js",
-    "static/js/3.a8df368a.chunk.js.map": "/cards/static/js/3.a8df368a.chunk.js.map",
+    "main.css": "/cards/static/css/main.fc0186de.chunk.css",
+    "main.js": "/cards/static/js/main.7d828f83.chunk.js",
+    "main.js.map": "/cards/static/js/main.7d828f83.chunk.js.map",
+    "runtime-main.js": "/cards/static/js/runtime-main.ea4ce9bb.js",
+    "runtime-main.js.map": "/cards/static/js/runtime-main.ea4ce9bb.js.map",
+    "static/js/2.2f4128ae.chunk.js": "/cards/static/js/2.2f4128ae.chunk.js",
+    "static/js/2.2f4128ae.chunk.js.map": "/cards/static/js/2.2f4128ae.chunk.js.map",
+    "static/js/3.f09d9cec.chunk.js": "/cards/static/js/3.f09d9cec.chunk.js",
+    "static/js/3.f09d9cec.chunk.js.map": "/cards/static/js/3.f09d9cec.chunk.js.map",
     "index.html": "/cards/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/cards/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.39aa3409.chunk.js.LICENSE.txt": "/cards/static/js/2.39aa3409.chunk.js.LICENSE.txt"
+    "static/css/main.fc0186de.chunk.css.map": "/cards/static/css/main.fc0186de.chunk.css.map",
+    "static/js/2.2f4128ae.chunk.js.LICENSE.txt": "/cards/static/js/2.2f4128ae.chunk.js.LICENSE.txt",
+    "static/media/404.9494ad47.png": "/cards/static/media/404.9494ad47.png",
+    "static/media/App.css": "/cards/static/media/background.a95fa633.png",
+    "static/media/checkMail.8bd711f4.png": "/cards/static/media/checkMail.8bd711f4.png",
+    "static/media/noAvatar.6c53c0a1.png": "/cards/static/media/noAvatar.6c53c0a1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.291fb413.js",
-    "static/js/2.39aa3409.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.64840c29.chunk.js"
+    "static/js/runtime-main.ea4ce9bb.js",
+    "static/js/2.2f4128ae.chunk.js",
+    "static/css/main.fc0186de.chunk.css",
+    "static/js/main.7d828f83.chunk.js"
   ]
 }
