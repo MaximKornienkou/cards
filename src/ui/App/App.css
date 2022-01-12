@@ -1,0 +1,10 @@
+body {
+    background: url("../../common/images/background.png") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    color: #3a3f42;
+}
+
+body > div {
+    /*background-color: rgba(84, 173, 212, .9);*/
+}

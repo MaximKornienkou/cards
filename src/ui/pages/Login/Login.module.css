@@ -1,0 +1,49 @@
+.remember {
+    margin-bottom: 15px;
+    padding-left: 2px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #777777;
+}
+
+.checkbox {
+    float: left;
+    margin-left: 10px;
+}
+
+.checkboxRemember {
+    user-select: none;
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+}
+
+.button {
+    margin-left: 55px;
+}
+
+.reset {
+    padding-top: 20px;
+    text-align: center;
+    font-size: .7rem;
+    font-weight: bold;
+    color: white;
+}
+
+.reset a {
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+}
+
+.reset a:hover {
+    opacity: 1;
+}
+
+.errorEmail {
+    top:155px;
+}
+
+.errorPassword {
+    top: 230px;
+}
