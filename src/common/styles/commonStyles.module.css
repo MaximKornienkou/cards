@@ -95,6 +95,7 @@
 
 .table {
     margin: 20px auto;
+    table-layout: fixed;
 }
 
 .table th {
